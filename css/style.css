@@ -1,0 +1,32 @@
+body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+.nav-link.active{
+	color: #f6d365;
+}
+
+.nav-link.btn{
+	background-image: linear-gradient(to right, #f6d365 , #fda085);
+	border-radius: 3rem;
+	font-weight: 400;
+	animation-name: slide;
+	animation-duration: 1s;
+	animation-play-state: paused;
+	animation-iteration-count: infinite;
+	box-shadow: 0 0 20px #eee;
+}
+
+.nav-link.btn:hover {
+	animation-play-state: running;
+}
+
+@keyframes slide {
+	100%{
+		background-image: linear-gradient(to right, #fda085 , #f6d365);
+	}
+}
+
+
