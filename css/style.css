@@ -4,8 +4,12 @@ body{
 	height: 100%;
 }
 
-.nav-link.active{
-	color: #f6d365;
+#main-content{
+	height: 100vh;
+}
+
+.nav-item{
+	font-weight: bold;
 }
 
 .nav-link.btn{
@@ -13,7 +17,7 @@ body{
 	border-radius: 3rem;
 	font-weight: 400;
 	animation-name: slide;
-	animation-duration: 1s;
+	animation-duration: 2s;
 	animation-play-state: paused;
 	animation-iteration-count: infinite;
 	box-shadow: 0 0 20px #eee;
@@ -29,4 +33,20 @@ body{
 	}
 }
 
+#center-part{
+	height: 60vh;
+	background-image: linear-gradient(to bottom right, #FFAA00 , #F1726C);
+	border-radius: 10px;
+	z-index: 1;
+}
 
+#discription div{
+	height: 25vh;
+	z-index: 2;
+	margin-top: -15vh;
+	background-color: white;
+	width: 17vw;
+	box-shadow: 0 8px 24px rgba(0, 0, 0, 0.24);
+	padding-top: 10px;
+	border-radius: 10px;
+}
