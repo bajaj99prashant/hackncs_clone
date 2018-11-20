@@ -5,7 +5,7 @@ body{
 }
 
 #main-content{
-	height: 100vh;
+	min-height: 100vh;
 }
 
 .nav-item{
@@ -17,7 +17,7 @@ body{
 	border-radius: 3rem;
 	font-weight: 400;
 	animation-name: slide;
-	animation-duration: 2s;
+	animation-duration: 1.5s;
 	animation-play-state: paused;
 	animation-iteration-count: infinite;
 	box-shadow: 0 0 20px #eee;
@@ -38,10 +38,16 @@ body{
 	background-image: linear-gradient(to bottom right, #FFAA00 , #F1726C);
 	border-radius: 10px;
 	z-index: 1;
+	color: white;
+}
+
+#center-part h1{
+	line-height: 0.9;
+	font-weight: bolder;
 }
 
 #discription div{
-	height: 25vh;
+	height: 30vh;
 	z-index: 2;
 	margin-top: -15vh;
 	background-color: white;
@@ -49,4 +55,5 @@ body{
 	box-shadow: 0 8px 24px rgba(0, 0, 0, 0.24);
 	padding-top: 10px;
 	border-radius: 10px;
+	font-weight: bolder;
 }
