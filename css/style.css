@@ -119,3 +119,42 @@ body{
 	border-radius: 10px;
 	background-image: linear-gradient(to bottom right, #f6d365 , #fda085 , #f6d365)
 }
+
+#secondLast{
+	height: 70vh;
+	z-index: 1;
+}
+
+#last{
+	height: 60vh;
+	background: #f0f0f0;
+	z-index: 1;
+	margin-top: -18vh;
+}
+
+#last-description{
+	z-index: 2;
+}
+
+#last-description div{
+	height: 36vh;
+	z-index: 2;
+	margin-top: -18vh;
+	width: 22vw;
+	box-shadow: 0 8px 24px rgba(0, 0, 0, 0.24);
+	padding-top: 10px;
+	border-radius: 10px;
+}
+
+#last1{
+	background-image: linear-gradient(to bottom right, rgba(255, 144, 120, 1) , rgba(255, 142, 210, 1));
+	color: white;
+}
+
+#last2{
+	background-image: linear-gradient(to bottom right, rgba(70, 211, 255, 1) , rgba(26, 251, 148, 1));
+	color: white;
+}
+#last-description div h2{
+	font-weight: bold;
+}
