@@ -69,3 +69,53 @@ body{
 #center-content img{
 	width: 50vw;
 }
+
+#card-content{
+	min-height: 100vh;
+}
+
+#card-content h1{
+	font-weight: bolder;
+}
+
+.card-group{
+	width: 70vw;
+	margin: 0 auto;
+}
+
+.card{
+	border: 0px;
+}
+
+#j1{
+	padding: 9vh;
+	background-image: linear-gradient(to bottom right, rgba(0,50,212,1) , rgba(209,51,255,1) , rgba(0,50,212,1));
+	border-radius: 10px;
+}
+
+.card:hover {
+	box-shadow: 0 8px 24px rgba(0, 0, 0, 0.24);
+	z-index: 2;
+}
+
+.card h3{
+	font-weight: bold;
+}
+
+#j2{
+	padding: 9vh;
+	border-radius: 10px;
+	background-image: linear-gradient(to bottom right, rgba(70,211,255,1) , rgba(26,251,148,1) , rgba(70,211,255,1));
+}
+
+#j3{
+	padding: 9vh;
+	border-radius: 10px;
+	background-image: linear-gradient(to bottom right, rgba(255,144,120,1) , rgba(255,142,210,1) , rgba(255,144,120,1));
+}
+
+#j4{
+	padding: 9vh;
+	border-radius: 10px;
+	background-image: linear-gradient(to bottom right, #f6d365 , #fda085 , #f6d365)
+}
